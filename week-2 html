@@ -1,0 +1,223 @@
+<html>
+    <head> 
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <style>
+      html {
+    scroll-behavior: smooth;
+        }
+        div{
+          width:300px;
+          display:inline-block;
+        }
+        body{
+          background-color:red;
+          font-family:arial;
+        }
+      </style>
+      <style>
+        table, th, td{
+            border:1px solid yellow
+            
+        }
+      </style>
+
+    </head>
+    <body>
+      <p style="color:blue">hello world</p>
+      <main>
+        <h1>my blog</h1>
+        <p>i learned html tags in the w3schools</p>
+          <a href="https://www.w3schools.com/">click here</a>
+      </main>
+      <nav>
+        <p>navigation to another site</p>
+      </nav>
+      
+      <ul>
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+      </ul>
+      <ol>
+      <li>apple</li>
+      <li>orange</li>
+      <li>banana</li>
+      </ol>
+      <article>
+        <h2>blog lists</h2>
+        <p>the blog lists are just a given name fromn the given documentn mand tring to become a web doveloper.but the web dovelopment was very hard</p>
+      </article>
+      <section>
+        <h2>blog lists</h2>
+        <p>the blog lists are just a given name fromn the given documentn mand tring to become a web doveloper.but the web dovelopment was very hard</p>
+      </section>
+      <aside>
+       <h2>blog lists</h2>
+        <p>the blog lists are just a given name fromn the given documentn mand tring to become a web doveloper.but the web dovelopment was very hard</p>
+      </aside>
+      <header>
+        <h2>blog lists</h2>
+        <p>the blog lists are just a given name fromn the given documentn mand tring to become a web doveloper.but the web dovelopment was very hard</p>
+      </header>
+      <blockquote>
+        this is a blockquote
+      </blockquote>
+      <div style="background-color:green">
+        <h2>London</h2>
+        <p>London is the capital city of England.</p>
+        <p>London has over 9 million inhabitants.</p>
+      </div>
+      <div style="background-color:blueviolet">
+        <h2>paris</h2>
+        <p>paris is the capital city of france.</p>
+        <p>the mbappe is the famous footballer</p>
+      </div>
+      <img src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901782.jpg?w=2000" width="100%" height="100px">
+      <a href="https://www.w3schools.com/">click here</a> <p>to enter w3schools</p>
+      <table>
+        <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>class</th>
+        </tr>
+        <tr>
+            <td>abinash</td>
+            <td>17</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>abishek</td>
+            <td>14</td>
+            <td>9</td>
+        </tr>
+      </table>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+ <h2>Navigation</h2>
+    <ul>
+        <li><a href="#top">Back to Top</a></li>
+    </ul>
+      <section id="#top">navigating within the page</section>
+      <hr>
+       <form>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="course">Select Course:</label><br>
+        <select id="course" name="course">
+            <option value="">-- Choose a Course --</option>
+            <option value="web-development">Web Development</option>
+            <option value="data-science">Data Science</option>
+            <option value="cyber-security">Cyber Security</option>
+            <option value="ai-ml">AI & Machine Learning</option>
+        </select><br><br>
+
+        <input type="submit" value="Register">
+        <hr>
+         <h1>Product Catalog</h1>
+
+    <h2>Electronics</h2>
+    <ul>
+        <li>
+            <h3>Smartphone</h3>
+            <p>Price: $699</p>
+            <p>Description: A high-end smartphone with great features.</p>
+        </li>
+        <li>
+            <h3>Laptop</h3>
+            <p>Price: $999</p>
+            <p>Description: A powerful laptop for work and gaming.</p>
+        </li>
+    </ul>
+
+    <h2>Clothing</h2>
+    <ul>
+        <li>
+            <h3>T-Shirt</h3>
+            <p>Price: $20</p>
+            <p>Description: Comfortable cotton t-shirt available in multiple colors.</p>
+        </li>
+        <li>
+            <h3>Jeans</h3>
+            <p>Price: $50</p>
+            <p>Description: Stylish and durable denim jeans.</p>
+        </li>
+    </ul>
+
+    <h2>Accessories</h2>
+    <ul>
+        <li>
+            <h3>Wristwatch</h3>
+            <p>Price: $150</p>
+            <p>Description: A stylish wristwatch with a leather strap.</p>
+        </li>
+        <li>
+            <h3>Backpack</h3>
+            <p>Price: $40</p>
+            <p>Description: A spacious and durable backpack.</p>
+        </li>
+    </ul>
+    </form>
+    <hr>
+    <header>
+        <h1>My Bio Data</h1>
+        <p>Welcome to my personal bio-data page</p>
+    </header>
+
+    <section>
+        <h2>Personal Information</h2>
+        <img src=""C:\Users\mnith\OneDrive\Documents\html purpose.jpg"" alt="my photo" width="200" height="250">
+        <ul>
+            <li><strong>Name:</strong> M.nithya kuamr</li>
+            <li><strong>Date of Birth:</strong> august 4,2006</li>
+            <li><strong>Gender:</strong> Male</li>
+            <li><strong>Nationality:</strong> indian</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <ul>
+            <li><strong>Mobile:</strong> 9150396916</li>
+            <li><strong>Email:</strong> mnithyakumar2006@gmail.com</li>
+            <li><strong>Address:</strong> 136-thirunagar,1323 bharathi nagar, ranipet</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Bachelor's Degree in machine learning</strong> - XYZ University (2024-2028)</li>
+            <li><strong>Master's Degree in machine learning</strong> - ABC University (2028-2030)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, Java, C++</li>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Data Science: Machine Learning, Deep Learning</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <ul>
+            <li><strong>machine learning</strong> -SRET</li>
+            <li><strong>Software Engineer</strong> - amazon</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Created by M.nithya kumar</p>
+    </footer>
+
+    </body>
+  
+</html>
